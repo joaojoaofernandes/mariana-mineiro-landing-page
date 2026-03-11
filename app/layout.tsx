@@ -16,7 +16,7 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'Dra. Camila Almeida | Nutricionista Clinica e Funcional',
+  title: 'Mariana Mineiro Nutri',
   description:
     'Cuidando da sua alimentacao com equilibrio e leveza. Atendimento personalizado em nutricao clinica, funcional e esportiva.',
   icons: {

@@ -19,8 +19,8 @@ export function About() {
             </div>
             {/* Floating credential badge */}
             <div className="absolute -bottom-6 -right-4 md:right-8 bg-card rounded-2xl shadow-lg px-6 py-4 border border-border/50">
-              <p className="text-xs text-muted-foreground uppercase tracking-wider">Registro</p>
-              <p className="font-serif text-lg text-foreground">CRN-3 12345</p>
+              <p className="text-xs text-muted-foreground uppercase tracking-wider">Cédula</p>
+              <p className="font-serif text-lg text-foreground">CP 6152N</p>
             </div>
           </div>
 
@@ -32,7 +32,7 @@ export function About() {
               </p>
               <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl leading-tight tracking-tight text-foreground text-balance">
                 Olá, eu sou a{" "}
-                <span className="text-primary">Dra. Camila Almeida</span>
+                <span className="text-primary">Dra. Mariana Mineiro</span>
               </h2>
             </div>
 

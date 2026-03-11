@@ -17,7 +17,7 @@ export function Hero() {
           <div className="flex flex-col gap-8 text-center lg:text-left order-2 lg:order-1">
             <div className="flex flex-col gap-4">
               <p className="text-sm font-medium tracking-widest uppercase text-primary">
-                Nutricionista Clinica e Funcional
+                Nutricionista Clínica e Desportiva
               </p>
               <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-[1.1] tracking-tight text-foreground text-balance">
                 Cuidando da sua alimentacao com{" "}
@@ -32,11 +32,17 @@ export function Hero() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button
-                asChild
-                size="lg"
-                className="rounded-full bg-primary text-primary-foreground hover:bg-primary/90 px-8 h-12 text-base shadow-lg shadow-primary/20"
+                  asChild
+                  size="lg"
+                  className="rounded-full bg-primary text-primary-foreground hover:bg-primary/90 px-8 h-12 text-base shadow-lg shadow-primary/20"
               >
-                <a href="#contato">Agendar Consulta</a>
+                <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSf01OWq1skGan03St81fEFXkU5tT7D1voH5MTGBChdTOMcSlw/viewform?fbclid=PAdGRleAQdB3pleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAae8tSznYg2UhykJcaGssj6MhlN9pvanFWk-Mr1JLXJPR2yJh6Z966sBhcewZA_aem_jDeRiyXutERpESj1lkewXw"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                  Agendar Consulta
+                </a>
               </Button>
               <Button
                 asChild
@@ -45,12 +51,12 @@ export function Hero() {
                 className="rounded-full border-primary/30 text-primary hover:bg-primary/5 px-8 h-12 text-base"
               >
                 <a
-                  href="https://wa.me/5511999999999"
+                  href="https://wa.me/351964232405"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <MessageCircle className="size-5" />
-                  Falar no WhatsApp
+                  WhatsApp Profissional
                 </a>
               </Button>
             </div>

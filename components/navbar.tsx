@@ -24,7 +24,7 @@ export function Navbar() {
         <a href="#" className="flex items-center gap-2 group">
           <Leaf className="size-6 text-primary transition-transform duration-300 group-hover:rotate-12" strokeWidth={1.5} />
           <span className="font-serif text-xl tracking-tight text-foreground">
-            Dra. Camila
+            Nutricionista Mariana Mineiro
           </span>
         </a>
 

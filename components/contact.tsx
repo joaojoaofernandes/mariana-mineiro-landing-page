@@ -10,20 +10,20 @@ const contactInfo = [
   {
     icon: MessageCircle,
     label: "WhatsApp",
-    value: "(11) 99999-9999",
-    href: "https://wa.me/5511999999999",
+    value: "+351 964 232 405",
+    href: "https://wa.me/351964232405",
   },
   {
     icon: Phone,
     label: "Telefone",
-    value: "(11) 3456-7890",
+    value: "+351 964 232 405",
     href: "tel:+551134567890",
   },
   {
     icon: Mail,
     label: "E-mail",
-    value: "contato@dracamila.com.br",
-    href: "mailto:contato@dracamila.com.br",
+    value: "marianamineiro.nutricionista@gmail.com",
+    href: "mailto:marianamineiro.nutricionista@gmail.com",
   },
   {
     icon: MapPin,
@@ -84,12 +84,12 @@ export function Contact() {
               className="rounded-full bg-primary text-primary-foreground hover:bg-primary/90 px-10 h-14 text-base shadow-lg shadow-primary/20 w-fit mx-auto lg:mx-0"
             >
               <a
-                href="https://wa.me/5511999999999"
-                target="_blank"
-                rel="noopener noreferrer"
+                  href="https://wa.me/351964232405"
+                  target="_blank"
+                  rel="noopener noreferrer"
               >
                 <MessageCircle className="size-5" />
-                Agendar pelo WhatsApp
+                Mandar Mensagem WhatsApp
               </a>
             </Button>
           </div>
