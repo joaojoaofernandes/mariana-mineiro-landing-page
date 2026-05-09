@@ -6,7 +6,19 @@ import {
   MapPin,
 } from "lucide-react"
 
-const contactInfo = [
+const contactInfo: {
+  icon: typeof Phone
+  label: string
+  value: string
+  href: string
+  fullWidth?: boolean
+}[] = [
+  {
+    icon: MapPin,
+    label: "Consulta Presencial",
+    value: "Clinica Sorridente",
+    href: "https://maps.google.com/?q=Cl%C3%ADnica+Dent%C3%A1ria+Sorridente",
+  },
   {
     icon: Phone,
     label: "Telemóvel",
@@ -18,12 +30,7 @@ const contactInfo = [
     label: "E-mail",
     value: "marianamineiro.nutricionista@gmail.com",
     href: "mailto:marianamineiro.nutricionista@gmail.com",
-  },
-  {
-    icon: MapPin,
-    label: "Constulta Presencial",
-    value: "Clinica Sorridente",
-    href: "https://maps.google.com/?q=Cl%C3%ADnica+Dent%C3%A1ria+Sorridente",
+    fullWidth: true,
   },
 ]
 
@@ -55,7 +62,7 @@ export function Contact() {
                   href={item.href}
                   target={item.href.startsWith("http") ? "_blank" : undefined}
                   rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined}
-                  className="group flex items-start gap-4 bg-card rounded-2xl border border-border/50 p-6 transition-all duration-300 hover:shadow-md hover:border-primary/20"
+                  className={`group flex items-start gap-4 bg-card rounded-2xl border border-border/50 p-6 transition-all duration-300 hover:shadow-md hover:border-primary/20 ${item.fullWidth ? "sm:col-span-2" : ""}`}
                 >
                   <div className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-primary/10 transition-colors duration-300 group-hover:bg-primary/15">
                     <item.icon className="size-5 text-primary" strokeWidth={1.5} />
