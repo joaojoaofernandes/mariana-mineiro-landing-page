@@ -8,16 +8,10 @@ import {
 
 const contactInfo = [
   {
-    icon: MessageCircle,
-    label: "WhatsApp",
-    value: "+351 964 232 405",
-    href: "https://wa.me/351964232405",
-  },
-  {
     icon: Phone,
-    label: "Telefone",
+    label: "Telemóvel",
     value: "+351 964 232 405",
-    href: "tel:+551134567890",
+    href: "tel:+351964232405",
   },
   {
     icon: Mail,
@@ -27,9 +21,9 @@ const contactInfo = [
   },
   {
     icon: MapPin,
-    label: "Endereco",
-    value: "Av. Paulista, 1234 - Sala 56, São Paulo - SP",
-    href: "https://maps.google.com/?q=Av.+Paulista+1234+São+Paulo",
+    label: "Constulta Presencial",
+    value: "Clinica Sorridente",
+    href: "https://maps.google.com/?q=Cl%C3%ADnica+Dent%C3%A1ria+Sorridente",
   },
 ]
 
@@ -97,7 +91,7 @@ export function Contact() {
           {/* Map */}
           <div className="relative rounded-2xl overflow-hidden border border-border/50 shadow-sm min-h-[320px]">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.197554868753!2d-46.65522382414287!3d-23.561414163269963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c7dbdbd06b%3A0x727530c498a3f8fe!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
+              src="https://www.google.com/maps/place/Cl%C3%ADnica+Dent%C3%A1ria+Sorridente/@39.9166564,-8.6330732,17z/data=!3m1!4b1!4m6!3m5!1s0xd226726312b4627:0x5a3fa3e81dd8ac9a!8m2!3d39.9166524!4d-8.6282023!16s%2Fg%2F11j_w058nb?hl=pt-BR&entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D"
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: 320 }}

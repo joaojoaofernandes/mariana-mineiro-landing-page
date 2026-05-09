@@ -10,7 +10,7 @@ export function About() {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-xl">
               <Image
-                src="/images/about-nutritionist.jpg"
+                src="/images/photo.jpg"
                 alt="Dra. Camila Almeida em seu consultorio"
                 width={600}
                 height={700}

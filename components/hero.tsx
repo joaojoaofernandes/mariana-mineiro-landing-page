@@ -70,7 +70,7 @@ export function Hero() {
               <div className="absolute -inset-8 rounded-[2.5rem] border border-primary/5 -rotate-2" />
               <div className="relative rounded-[1.5rem] overflow-hidden shadow-2xl shadow-primary/10">
                 <Image
-                  src="/images/hero-nutritionist.jpg"
+                  src="images/photo.jpg"
                   alt="Dra. Camila Almeida, Nutricionista"
                   width={600}
                   height={750}
