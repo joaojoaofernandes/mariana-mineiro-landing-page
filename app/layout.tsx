@@ -18,7 +18,7 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: 'Mariana Mineiro Nutri',
   description:
-    'Cuidando da sua alimentacao com equilibrio e leveza. Atendimento personalizado em nutricao clinica, funcional e esportiva.',
+    'Cuidando da sua alimentacao com equilíbrio e leveza. Atendimento personalizado em nutricao clinica, funcional e esportiva.',
   icons: {
     icon: [
       {

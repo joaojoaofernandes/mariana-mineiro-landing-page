@@ -21,7 +21,7 @@ export function Hero() {
               </p>
               <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-[1.1] tracking-tight text-foreground text-balance">
                 Nutrir com {" "}
-                <span className="text-primary italic">equílibrio</span> e{" "}
+                <span className="text-primary italic">equilíbrio</span> e{" "}
                 <span className="text-primary italic">consciência</span>
               </h1>
               <p className="text-lg text-muted-foreground leading-relaxed max-w-lg mx-auto lg:mx-0 text-pretty">
