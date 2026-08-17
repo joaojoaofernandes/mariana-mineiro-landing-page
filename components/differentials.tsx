@@ -8,37 +8,37 @@ const differentials = [
   },
   {
     icon: ClipboardList,
-    title: "Plano Alimentar Individualizado",
-    description: "Cardapios criados especialmente para voce e sua rotina.",
+    title: "Individual",
+    description: "Cada pessoa tem objetivos, necessidades e uma rotina diferente. A alimentação deve adaptar-se a ti e não o contrário.",
   },
   {
     icon: RefreshCw,
-    title: "Acompanhamento Continuo",
-    description: "Suporte constante para ajustes e evolucao ao longo do tempo.",
+    title: "Simples",
+    description: "Não precisas de complicar a alimentação para obter resultados. Procuramos estratégias práticas e fáceis de aplicar.",
   },
   {
     icon: Target,
-    title: "Estrategias Realistas",
-    description: "Metas alcançaveis e sustentaveis, sem radicalismos.",
+    title: "Flexível",
+    description: "Nem todos os dias são iguais. Por isso, a alimentação deve permitir adaptações e diferentes escolhas.",
   },
   {
     icon: HeartHandshake,
-    title: "Suporte Proximo",
-    description: "Estou sempre disponivel para tirar duvidas e te motivar.",
+    title: "Sustentável",
+    description: "O objetivo não é criar mudanças que funcionem apenas durante algumas semanas, mas sim construir hábitos que consigas manter a longo prazo.",
   },
 ]
 
 export function Differentials() {
   return (
-    <section id="diferenciais" className="py-24 lg:py-32 bg-secondary/40">
+    <section id="compromisso" className="py-24 lg:py-32 bg-secondary/40">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* Header */}
         <div className="mx-auto max-w-2xl text-center flex flex-col gap-4 mb-16">
           <p className="text-sm font-medium tracking-widest uppercase text-primary">
-            Diferenciais
+            Compromisso
           </p>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl leading-tight tracking-tight text-foreground text-balance">
-            Por que me escolher
+            Porque me escolher
           </h2>
         </div>
 

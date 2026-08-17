@@ -27,7 +27,7 @@ const contactInfo: {
   },
   {
     icon: Mail,
-    label: "E-mail",
+    label: "Email",
     value: "marianamineiro.nutricionista@gmail.com",
     href: "mailto:marianamineiro.nutricionista@gmail.com",
     fullWidth: true,
@@ -47,8 +47,7 @@ export function Contact() {
             Vamos conversar?
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed text-pretty">
-            Entre em contato e agende sua consulta. Estou pronta para te ajudar
-            a alcançar seus objetivos.
+            Entre em contato comigo e agenda a tua consulta.
           </p>
         </div>
 
