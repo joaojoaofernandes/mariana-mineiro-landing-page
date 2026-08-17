@@ -9,51 +9,44 @@ import {
 const services = [
   {
     icon: Apple,
-    title: "Emagrecimento Saudavel",
+    title: "Emagrecimento",
     description:
-      "Estrategias individualizadas e sustentaveis para perda de peso com saude e sem restricoes radicais.",
-  },
-  {
-    icon: Salad,
-    title: "Reeducacao Alimentar",
-    description:
-      "Transforme sua relacao com a comida, aprenda a fazer escolhas conscientes e prazerosas no dia a dia.",
+      "Acompanhamento nutricional para a perda de massa gorda, através de estratégias realistas e sustentáveis, sem depender de restrições.",
   },
   {
     icon: Stethoscope,
-    title: "Nutricao Clinica",
+    title: "Hipertrofia Muscular",
     description:
-      "Acompanhamento nutricional para condicoes clinicas como diabetes, hipertensao e intolerâncias.",
+      "Estratégias para o ganho de massa muscular, com foco não só na estética, mas também na saúde e autonomia ao longo do envelhecimento.",
   },
   {
     icon: Dumbbell,
-    title: "Nutricao Esportiva",
+    title: "Performance Desportiva",
     description:
-      "Planos alimentares otimizados para desempenho, recuperacao e composicao corporal.",
+      "Estratégias adaptadas ao teu treino e objetivos, com foco no desempenho, recuperação e otimização da composição corporal.",
   },
   {
-    icon: MonitorSmartphone,
-    title: "Atendimento Online",
+    icon: Salad,
+    title: "Reeducação Alimentar",
     description:
-      "Consultas presenciais e online com a mesma qualidade, cuidado e atencao aos detalhes.",
+      "Para quem procura mais clareza nas escolhas alimentares e a construir maior autonomia e flexibilidade alimentar.",
   },
 ]
 
 export function Services() {
   return (
-    <section id="servicos" className="py-24 lg:py-32">
+    <section id="serviços" className="py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* Header */}
         <div className="mx-auto max-w-2xl text-center flex flex-col gap-4 mb-16">
           <p className="text-sm font-medium tracking-widest uppercase text-primary">
-            Servicos
+            Serviços
           </p>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl leading-tight tracking-tight text-foreground text-balance">
-            Como posso te ajudar
+            O que podemos trabalhar
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed text-pretty">
-            Cada servico e pensado para atender suas necessidades de forma
-            personalizada e acolhedora.
+            O acompanhamento pode ser adaptado a diferentes objetivos e fases da vida.
           </p>
         </div>
 

@@ -11,32 +11,33 @@ const faqs = [
   {
     question: "A consulta pode ser online?",
     answer:
-      "Sim! Ofereco atendimento online com a mesma qualidade do presencial. As consultas sao realizadas por videochamada em uma plataforma segura, e voce recebe todo o material por e-mail.",
+      "Sim! As consultas online são realizadas por videochamada. Após a consulta, recebes todo o material por e-mail.\n" +
+        "As consultas presenciais são realizadas na Clínica Dentária Sorridente, em Pombal.\n",
   },
   {
-    question: "O plano alimentar e restritivo?",
+    question: "Em que consiste a avaliação da composição corporal?",
     answer:
-      "De forma alguma. Minha abordagem e baseada em equilibrio e prazer. O plano e personalizado para sua rotina, preferencias e objetivos, sem cortar alimentos ou criar restricoes desnecessarias.",
+      "Nas consultas presenciais, utilizamos uma balança de bioimpedância para avaliar a massa gorda e a massa isenta de gordura. Complementamos com a medição de perímetros corporais e, quando fizer sentido, com a avaliação de pregas cutâneas. Nas consultas online, utilizamos os valores reportados, existindo um guia para as medições em casa.",
   },
   {
-    question: "Voce aceita convenio?",
+    question: "O plano alimentar é restritivo??",
     answer:
-      "Atualmente trabalho com atendimento particular. Porem, emito recibo para que voce possa solicitar o reembolso ao seu plano de saude, caso ele ofereça essa possibilidade.",
+      "Não. A abordagem é flexível e personalizada, sem restrições desnecessárias, com foco na construção de hábitos que consigas manter.",
   },
   {
     question: "Quanto tempo dura a consulta?",
     answer:
-      "A primeira consulta dura em media 60 minutos, para que eu possa conhecer seu historico completo. As consultas de retorno duram cerca de 30 a 40 minutos.",
+      "A primeira consulta dura cerca de 60 minutos, permitindo conhecer a tua realidade, objetivos e necessidades e definir a estratégia a seguir.",
   },
   {
-    question: "Preciso fazer exames antes da consulta?",
+    question: "A intervenção nutricional é à base de suplementos?",
     answer:
-      "Nao e obrigatorio, mas e recomendado trazer exames recentes caso os tenha. Se necessario, posso solicitar exames complementares durante o acompanhamento.",
+      "Não. A alimentação é sempre a base do acompanhamento. Quando fizer sentido, a suplementação pode ser considerada, mas será sempre avaliada de forma individual e ao longo do acompanhamento.",
   },
   {
-    question: "Com que frequencia sao os retornos?",
+    question: "Com que frequência são as consultas?",
     answer:
-      "Geralmente, os retornos sao agendados a cada 15 a 30 dias no inicio do tratamento, podendo ser espaçados conforme sua evolucao e necessidades.",
+      "Idealmente, o acompanhamento começa com consultas mensais. A frequência pode ser ajustada de acordo com a tua evolução, podendo os intervalos ser mais espaçados ao longo do processo.",
   },
 ]
 
@@ -50,7 +51,7 @@ export function FAQ() {
             Perguntas Frequentes
           </p>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl leading-tight tracking-tight text-foreground text-balance">
-            Tire suas duvidas
+            Tira as tuas dúvidas
           </h2>
         </div>
 

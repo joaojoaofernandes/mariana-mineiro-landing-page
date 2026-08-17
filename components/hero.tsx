@@ -20,13 +20,12 @@ export function Hero() {
                 Nutricionista Clínica e Desportiva
               </p>
               <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-[1.1] tracking-tight text-foreground text-balance">
-                Cuidando da sua alimentacao com{" "}
-                <span className="text-primary italic">equilibrio</span> e{" "}
-                <span className="text-primary italic">leveza</span>
+                Nutrir com {" "}
+                <span className="text-primary italic">equílibrio</span> e{" "}
+                <span className="text-primary italic">consciência</span>
               </h1>
               <p className="text-lg text-muted-foreground leading-relaxed max-w-lg mx-auto lg:mx-0 text-pretty">
-                Uma abordagem acolhedora e personalizada para transformar sua
-                relacao com a comida e alcançar o bem-estar que voce merece.
+                Uma abordagem simples, flexível e realista, pensada para criar mudanças que fazem sentido na tua vida.
               </p>
             </div>
 

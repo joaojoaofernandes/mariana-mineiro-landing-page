@@ -32,15 +32,14 @@ export function About() {
               </p>
               <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl leading-tight tracking-tight text-foreground text-balance">
                 Olá, eu sou a{" "}
-                <span className="text-primary">Dra. Mariana Mineiro</span>
+                <span className="text-primary">Nutricionista Mariana Mineiro</span>
               </h2>
             </div>
 
             <p className="text-muted-foreground leading-relaxed text-lg text-pretty">
-              Sou apaixonada por ajudar pessoas a encontrarem o equilibrio na
-              alimentacao. Minha missão é mostrar que comer bem pode ser simples,
-              prazeroso e transformador. Cada paciente é unico, e por isso cada
-              plano é criado com carinho e baseado em ciencia.
+              Acredito que não existe uma alimentação perfeita, existe a alimentação que melhor se adapta a cada pessoa.
+              Por isso, o acompanhamento nutricional começa por conhecer a tua realidade: os teus objetivos, hábitos, preferências, rotina e dificuldades. A partir daí, construímos, em conjunto, estratégias que possas aplicar.
+              Quero ajudar-te a perceber como fazer melhores escolhas, como adaptar a alimentação a diferentes situações e como tornar essas mudanças parte do teu dia a dia.
             </p>
 
             <div className="flex flex-col gap-5">
@@ -49,10 +48,9 @@ export function About() {
                   <GraduationCap className="size-5 text-primary" strokeWidth={1.5} />
                 </div>
                 <div>
-                  <p className="font-medium text-foreground">Formacao Academica</p>
+                  <p className="font-medium text-foreground">Formacão Académica</p>
                   <p className="text-sm text-muted-foreground">
-                    Graduada em Nutricao pela USP, com especializacao em Nutricao
-                    Clinica e Funcional pela UNIFESP.
+                    Licenciada em Ciências da Nutrição na Faculdade de Ciências da Nutrição da Universidade do Porto.
                   </p>
                 </div>
               </div>
@@ -62,23 +60,27 @@ export function About() {
                   <Award className="size-5 text-primary" strokeWidth={1.5} />
                 </div>
                 <div>
-                  <p className="font-medium text-foreground">Especializacoes</p>
+                  <p className="font-medium text-foreground">Percurso Profissional</p>
                   <p className="text-sm text-muted-foreground">
-                    Nutricao Funcional, Nutricao Esportiva, Fitoterapia Aplicada
-                    e Comportamento Alimentar.
+                    Nutricionista em Nutrição Clínica e Desportiva em contexto de ginásio, box de crossfit, clínica privada e online.
                   </p>
                 </div>
               </div>
 
               <div className="flex items-start gap-4">
                 <div className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-primary/10">
-                  <Heart className="size-5 text-primary" strokeWidth={1.5} />
+                  <Award className="size-5 text-primary" strokeWidth={1.5} />
                 </div>
                 <div>
-                  <p className="font-medium text-foreground">Minha Abordagem</p>
+                  <p className="font-medium text-foreground">Formações</p>
                   <p className="text-sm text-muted-foreground">
-                    Acredito em uma nutricao sem radicalismos, focada em
-                    habitos sustentaveis e no prazer de comer bem.
+                    Antropometrista Isak Nível 1
+                  </p>
+                  <p className="text-sm text-muted-foreground">
+                    Nutrição Desportiva
+                  </p>
+                  <p className="text-sm text-muted-foreground">
+                    Gestão de peso
                   </p>
                 </div>
               </div>

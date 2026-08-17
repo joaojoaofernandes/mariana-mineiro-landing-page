@@ -4,29 +4,29 @@ const steps = [
   {
     icon: CalendarCheck,
     number: "01",
-    title: "Agendamento",
-    description: "Escolha o melhor horario e agende sua consulta de forma rapida e pratica.",
+    title: "Começamos por te conhecer",
+    description: "Irás receber um questionário inicial para conhecer os teus objetivos, hábitos, preferências e rotina.",
   },
   {
     icon: ClipboardCheck,
     number: "02",
-    title: "Avaliacao Completa",
+    title: "Contruímos a tua estratégia",
     description:
-      "Avaliacao detalhada do seu historico, habitos alimentares, exames e objetivos.",
+      "Na primeira consulta, analisamos o teu contexto e definimos os primeiros objetivos e estratégias a implementar.",
   },
   {
     icon: Utensils,
     number: "03",
-    title: "Plano Personalizado",
+    title: "Ajustamos",
     description:
-      "Receba um plano alimentar feito sob medida para sua rotina e preferencias.",
+      "Acompanhamos a tua evolução, identificamos dificuldades e ajustamos a estratégia sempre que necessário.",
   },
   {
     icon: TrendingUp,
     number: "04",
-    title: "Acompanhamento",
+    title: "Contruímos autonomia",
     description:
-      "Consultas de retorno e suporte continuo para garantir seus resultados.",
+      "O objetivo é que desenvolvas conhecimento, flexibilidade e confiança para fazer escolhas de forma autónoma.",
   },
 ]
 
@@ -37,7 +37,7 @@ export function HowItWorks() {
         {/* Header */}
         <div className="mx-auto max-w-2xl text-center flex flex-col gap-4 mb-16">
           <p className="text-sm font-medium tracking-widest uppercase text-primary">
-            Como Funciona
+            Mais do que um Plano Alimentar
           </p>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl leading-tight tracking-tight text-foreground text-balance">
             Sua jornada em 4 passos
