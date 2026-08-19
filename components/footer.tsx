@@ -70,53 +70,70 @@ export function Footer() {
           </div>
 
           {/* Info */}
-          <div className="flex flex-col gap-2 text-sm text-muted-foreground">
+          <div className="flex w-full flex-col items-center gap-2 text-center text-sm text-muted-foreground">
             <p>CP 6152N | Nutricionista Clínica e Desportiva</p>
-            <div className="flex items-center gap-4 justify-center flex-wrap">
-              <Dialog>
-                <DialogTrigger asChild>
-                  <button className="hover:text-primary transition-colors">
-                    Politica de Privacidade
-                  </button>
-                </DialogTrigger>
-                <DialogContent className="max-h-[85vh] overflow-y-auto sm:max-w-2xl">
-                  <DialogHeader>
-                    <DialogTitle className="font-serif text-xl">Política de Privacidade</DialogTitle>
-                  </DialogHeader>
-                  <PrivacyContent />
-                </DialogContent>
-              </Dialog>
+
+            <div className="grid w-full max-w-md grid-cols-[1fr_auto_1fr] items-center">
+              <div className="flex justify-end pr-4">
+                <Dialog>
+                  <DialogTrigger asChild>
+                    <button className="transition-colors hover:text-primary">
+                      Política de Privacidade
+                    </button>
+                  </DialogTrigger>
+
+                  <DialogContent className="max-h-[85vh] overflow-y-auto sm:max-w-2xl">
+                    <DialogHeader>
+                      <DialogTitle className="font-serif text-xl">
+                        Política de Privacidade
+                      </DialogTitle>
+                    </DialogHeader>
+                    <PrivacyContent />
+                  </DialogContent>
+                </Dialog>
+              </div>
+
               <span className="text-border">|</span>
-              <Dialog>
-                <DialogTrigger asChild>
-                  <button className="hover:text-primary transition-colors">
-                    Termos de Uso
-                  </button>
-                </DialogTrigger>
-                <DialogContent className="max-h-[85vh] overflow-y-auto sm:max-w-2xl">
-                  <DialogHeader>
-                    <DialogTitle className="font-serif text-xl">Termos de Uso</DialogTitle>
-                  </DialogHeader>
-                  <TermsContent />
-                </DialogContent>
-              </Dialog>
+
+              <div className="flex justify-start pl-4">
+                <Dialog>
+                  <DialogTrigger asChild>
+                    <button className="transition-colors hover:text-primary">
+                      Termos de Uso
+                    </button>
+                  </DialogTrigger>
+
+                  <DialogContent className="max-h-[85vh] overflow-y-auto sm:max-w-2xl">
+                    <DialogHeader>
+                      <DialogTitle className="font-serif text-xl">
+                        Termos de Uso
+                      </DialogTitle>
+                    </DialogHeader>
+                    <TermsContent />
+                  </DialogContent>
+                </Dialog>
+              </div>
             </div>
-            <a
-              href="https://www.livroreclamacoes.pt/Inicio/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="opacity-90 hover:opacity-100 transition-opacity"
-            >
-              <Image
-                src="/livro-reclamacoes.png"
-                alt="Livro de Reclamações Online"
-                width={140}
-                height={58}
-                className="h-8 w-auto"
-              />
-            </a>
-            <p className="text-xs text-muted-foreground/70 pt-2">
-              {'© 2026 Nutricionista Mariana Mineiro. Todos os direitos reservados.'}
+
+            <div className="flex items-center justify-center">
+              <a
+                  href="https://www.livroreclamacoes.pt/Inicio/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="opacity-90 transition-opacity hover:opacity-100"
+              >
+                <Image
+                    src="/livro-reclamacoes.png"
+                    alt="Livro de Reclamações Online"
+                    width={140}
+                    height={58}
+                    className="h-8 w-auto"
+                />
+              </a>
+            </div>
+
+            <p className="pt-2 text-xs text-muted-foreground/70">
+              © 2026 Nutricionista Mariana Mineiro. Todos os direitos reservados.
             </p>
           </div>
         </div>
