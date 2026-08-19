@@ -1,4 +1,15 @@
+"use client"
+
+import Image from "next/image"
 import { Leaf } from "lucide-react"
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
+import { TermsContent, PrivacyContent } from "@/components/legal-content"
 
 export function Footer() {
   return (
@@ -61,15 +72,49 @@ export function Footer() {
           {/* Info */}
           <div className="flex flex-col gap-2 text-sm text-muted-foreground">
             <p>CP 6152N | Nutricionista Clínica e Desportiva</p>
-            <div className="flex items-center gap-4 justify-center">
-              <a href="#" className="hover:text-primary transition-colors">
-                Politica de Privacidade
-              </a>
+            <div className="flex items-center gap-4 justify-center flex-wrap">
+              <Dialog>
+                <DialogTrigger asChild>
+                  <button className="hover:text-primary transition-colors">
+                    Politica de Privacidade
+                  </button>
+                </DialogTrigger>
+                <DialogContent className="max-h-[85vh] overflow-y-auto sm:max-w-2xl">
+                  <DialogHeader>
+                    <DialogTitle className="font-serif text-xl">Política de Privacidade</DialogTitle>
+                  </DialogHeader>
+                  <PrivacyContent />
+                </DialogContent>
+              </Dialog>
               <span className="text-border">|</span>
-              <a href="#" className="hover:text-primary transition-colors">
-                Termos de Uso
-              </a>
+              <Dialog>
+                <DialogTrigger asChild>
+                  <button className="hover:text-primary transition-colors">
+                    Termos de Uso
+                  </button>
+                </DialogTrigger>
+                <DialogContent className="max-h-[85vh] overflow-y-auto sm:max-w-2xl">
+                  <DialogHeader>
+                    <DialogTitle className="font-serif text-xl">Termos de Uso</DialogTitle>
+                  </DialogHeader>
+                  <TermsContent />
+                </DialogContent>
+              </Dialog>
             </div>
+            <a
+              href="https://www.livroreclamacoes.pt/Inicio/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="opacity-90 hover:opacity-100 transition-opacity"
+            >
+              <Image
+                src="/livro-reclamacoes.png"
+                alt="Livro de Reclamações Online"
+                width={140}
+                height={58}
+                className="h-8 w-auto"
+              />
+            </a>
             <p className="text-xs text-muted-foreground/70 pt-2">
               {'© 2026 Nutricionista Mariana Mineiro. Todos os direitos reservados.'}
             </p>
