@@ -15,7 +15,7 @@ export function Footer() {
   return (
     <footer className="border-t border-border/50 py-12">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="flex flex-col items-center gap-8 text-center">
+        <div className="flex flex-col items-center gap-2 text-center">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2">
             <Leaf className="size-5 text-primary" strokeWidth={1.5} />
@@ -127,7 +127,7 @@ export function Footer() {
                     alt="Livro de Reclamações Online"
                     width={140}
                     height={58}
-                    className="h-8 w-auto"
+                    className="h-9 w-auto"
                 />
               </a>
             </div>

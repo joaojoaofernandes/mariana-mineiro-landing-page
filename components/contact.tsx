@@ -47,7 +47,7 @@ export function Contact() {
             Vamos conversar?
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed text-pretty">
-            Entre em contato comigo e agenda a tua consulta.
+            Entra em contato comigo e agenda a tua consulta.
           </p>
         </div>
 

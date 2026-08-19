@@ -62,7 +62,13 @@ export function About() {
                 <div>
                   <p className="font-medium text-foreground">Percurso Profissional</p>
                   <p className="text-sm text-muted-foreground">
-                    Nutricionista em Nutrição Clínica e Desportiva em contexto de ginásio, box de crossfit, clínica privada e online.
+                    Nutricionista em Nutrição Clínica e Desportiva em contexto de ginásio
+                  </p>
+                  <p className="text-sm text-muted-foreground">
+                    Box de crossfit
+                  </p>
+                  <p className="text-sm text-muted-foreground">
+                    Clínica privada e online.
                   </p>
                 </div>
               </div>
