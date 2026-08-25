@@ -11,7 +11,9 @@ import { Contact } from "@/components/contact"
 import { Footer } from "@/components/footer"
 
 export default function Page() {
-  return (
+    const gaId = process.env.PUBLIC_GA_ID
+
+    return (
     <>
       <Navbar />
       <main>
@@ -25,7 +27,7 @@ export default function Page() {
       </main>
       <Footer />
 
-      <GoogleAnalytics gaId="G-2JTRZWFNPZ" />
+        {gaId && <GoogleAnalytics gaId={gaId} />}
     </>
   )
 }
