@@ -1,9 +1,8 @@
 import {
   Apple,
   Salad,
-  Stethoscope,
   Dumbbell,
-  MonitorSmartphone,
+  Activity
 } from "lucide-react"
 
 const services = [
@@ -14,13 +13,13 @@ const services = [
       "Acompanhamento nutricional para a perda de massa gorda, através de estratégias realistas e sustentáveis, sem depender de restrições.",
   },
   {
-    icon: Stethoscope,
+    icon: Dumbbell,
     title: "Hipertrofia Muscular",
     description:
       "Estratégias para o ganho de massa muscular, com foco não só na estética, mas também na saúde e autonomia ao longo do envelhecimento.",
   },
   {
-    icon: Dumbbell,
+    icon: Activity,
     title: "Performance Desportiva",
     description:
       "Estratégias adaptadas ao teu treino e objetivos, com foco no desempenho, recuperação e otimização da composição corporal.",

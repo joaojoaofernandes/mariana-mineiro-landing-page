@@ -40,7 +40,7 @@ export function HowItWorks() {
             Mais do que um Plano Alimentar
           </p>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl leading-tight tracking-tight text-foreground text-balance">
-            Sua jornada em 4 passos
+            A tua jornada em 4 passos
           </h2>
         </div>
 
